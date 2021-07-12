@@ -7,12 +7,12 @@ const Firstapp=()=> {
     return (
         <div>
         <h1>Hello World This is My First React App</h1>
-        <h2>This is second Heading</h2>
-        <ul>
-        <li><Button buttontext="HTML" /></li>
-        <li><Button buttontext="JavaScript" /></li>
-        <li><Button buttontext="ReactJS"/></li>
-        </ul>
+        <h2>Tech Stacks Going to learn</h2>
+        
+        <Button buttontext="HTML" />
+        <Button buttontext="JavaScript" />
+        <Button buttontext="ReactJS"/>
+        
         </div>
     )
 }

@@ -3,7 +3,9 @@ import ReactDOM from "react-dom"
 
 const Button=({buttontext})=> {
     return (
-        <button className="btn"> {buttontext} </button>
+        <div className="flex-parent jc-center">
+        <button className="btn" > {buttontext} </button>
+        </div>
     )
 
 }
